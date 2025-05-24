@@ -1,0 +1,15 @@
+/* Custom CSS for Toastify */
+.Toastify__toast-container {
+    z-index: 9999 !important;
+}
+
+.Toastify__toast {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 8px;
+    padding: 10px;
+    max-width: 350px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

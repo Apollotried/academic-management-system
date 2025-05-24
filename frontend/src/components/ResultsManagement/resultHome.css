@@ -1,0 +1,235 @@
+.listeCourse {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.courseCard {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    transition: transform 0.2s ease;
+}
+
+.courseCard:hover {
+    transform: translateY(-5px);
+    background-color: #d0d0d0;
+}
+
+.title2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* resultHome.css */
+/* resultHome.css */
+.tableEtudiants {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tableEtudiants th, .tableEtudiants td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.tableEtudiants th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.tableEtudiants tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tableEtudiants tr:hover {
+    background-color: #f1f1f1;
+}
+
+.tableEtudiants td {
+    font-size: 16px;
+}
+
+.title3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.listeCourse {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.courseCard {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    transition: transform 0.2s ease;
+}
+
+.courseCard:hover {
+    transform: translateY(-5px);
+    background-color: #d0d0d0;
+}
+
+/* resultHome.css */
+.filterSortOptions {
+
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filterSortOptions label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.filterSortOptions select {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.tableEtudiants {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tableEtudiants th, .tableEtudiants td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.tableEtudiants th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tableEtudiants th:hover {
+    background-color: #ddd;
+}
+
+.tableEtudiants tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tableEtudiants tr:hover {
+    background-color: #f1f1f1;
+}
+
+.tableEtudiants td {
+    font-size: 16px;
+}
+
+.title2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.listeCourse {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.courseCard {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    transition: transform 0.2s ease;
+}
+
+.courseCard:hover {
+    transform: translateY(-5px);
+    background-color: #d0d0d0;
+}
+
+.optionSettings{
+    display: flex;
+    gap: 50px;
+}
+
+.group{
+    margin-right: 50px;
+}
+
+.title3{
+    margin-bottom: 40px;
+}
+
+.gradeInput {
+    width: 60px; /* Adjust the width as needed */
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.gradeInput:focus {
+    outline: none;
+    border-color: #4A90E2; /* Change border color when focused */
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5); /* Add a subtle shadow effect */
+}
+
+.gradeInput:hover {
+    border-color: #bbb; /* Change border color on hover */
+}
+
+.gradeInput::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+.ApplyNotes {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    padding: 12px 24px; /* Padding for top/bottom and left/right */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.ApplyNotes:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.ApplyNotes:focus {
+    outline: none; /* Remove outline on focus */
+    box-shadow: 0 0 10px rgba(0, 128, 0, 0.6); /* Green glow on focus */
+}
+
+.ApplyNotes:active {
+    background-color: #3e8e41; /* Even darker green when clicked */
+}
+
+

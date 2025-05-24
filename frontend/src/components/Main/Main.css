@@ -1,0 +1,136 @@
+main {
+    padding: 20px;
+    width: 100%;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.hori {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.hori .title {
+    font-size: 24px;
+    color: #333;
+}
+.hori .config {
+    margin-right: 20px;
+}
+
+.hori .config a {
+    margin: 0 10px;
+    margin-right: 10px;
+}
+
+.hori a {
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+
+.cards {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card:nth-child(1) {
+    background-color: #007bff;
+}
+
+.card:nth-child(2) {
+    background-color: #ee36e5;
+}
+
+.card:nth-child(3) {
+    background-color: #ffc107;
+}
+
+.card:nth-child(4) {
+    background-color: rgb(247, 63, 63);
+}
+
+.card h1 {
+    font-size: 36px;
+    color: #fff;
+}
+
+.card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.card p {
+    font-size: 16px;
+    color: #fff;
+}
+
+/* Main.css */
+.welcome-container {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8; /* Light background for better contrast */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.welcome-header {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    color: #2c3e50; /* Darker color for the header */
+}
+
+.welcome-message {
+    font-size: 1.2em;
+    margin-bottom: 25px;
+    color: #34495e; /* Complementary color for the message */
+}
+
+.link-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.link-card {
+    display: inline-block;
+    margin: 15px;
+    padding: 20px;
+    width: 220px;
+    border: 2px solid #3498db; /* Blue border to match the theme */
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3498db; /* Blue background */
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.link-card:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+

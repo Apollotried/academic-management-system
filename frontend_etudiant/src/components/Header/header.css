@@ -1,0 +1,40 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+header {
+    width: 300px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    height: 150vh;
+}
+header img {
+    width: 100px;
+    margin-right: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 30px;
+}
+
+nav ul li  {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    border-bottom: 1px solid rgba(136, 133, 133, 0.1);
+}
+
+nav ul li:hover {
+    color: #45a049;
+    background-color: #555;
+}
+
+nav ul li i {
+    margin-right: 10px;
+}

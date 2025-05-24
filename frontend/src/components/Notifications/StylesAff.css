@@ -1,0 +1,102 @@
+/* Container for the Notification List page */
+.notification-list {
+    max-width: 900px;
+    margin: 80px auto 50px auto; /* Ajout de 80px de marge en haut */
+    padding: 40px;
+    background-color: #f4f7fc;
+    border-radius: 12px;
+    border: 1px solid #dfe3e9;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+/* Notification hover effect */
+.list {
+    padding: 15px;
+    border: 1px solid #f0f0f0;
+    border-radius: 8px;
+    margin-bottom: 20px; 
+    transition: background-color 0.3s ease;
+}
+
+/* Notification hover effect */
+.list:hover {
+    background-color: #f7f9fc;
+    transform: scale(1.02);
+}
+
+
+/* Title */
+h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    color: #2a3c5c;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+/* List of notifications */
+.ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Notification hover effect */
+.list:hover {
+    background-color: #f7f9fc;
+    transform: scale(1.02);
+}
+
+/* Notification details */
+strong {
+    color: #2a3c5c;
+    font-weight: 600;
+}
+
+/* Notification message */
+p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+/* No notifications message */
+p.no-notifications {
+    font-size: 18px;
+    color: #777;
+    text-align: center;
+}
+
+/* Toast notifications */
+.toast-container {
+    font-size: 16px;
+    z-index: 9999;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .notification-list {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    li {
+        padding: 15px;
+    }
+
+    strong {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}

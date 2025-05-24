@@ -1,0 +1,111 @@
+.ajouterSyllabusSection {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.ajouterSyllabusSection h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.ajouterSyllabusSection .syllabus-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ajouterSyllabusSection .flexible-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.ajouterSyllabusSection .form-section {
+    background-color: #eef;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    flex: 1 1 calc(50% - 20px); /* Two columns with space between them */
+}
+
+.ajouterSyllabusSection .form-section h2 {
+    margin-bottom: 10px;
+    color: #5a67d8;
+    border-bottom: 2px solid #5a67d8;
+    padding-bottom: 5px;
+}
+
+.ajouterSyllabusSection .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.ajouterSyllabusSection .form-group label {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.ajouterSyllabusSection .form-group .input-container {
+    display: flex;
+    align-items: center;
+}
+
+.ajouterSyllabusSection .form-group input,
+.ajouterSyllabusSection .form-group textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    flex: 1;
+}
+
+.ajouterSyllabusSection .form-group .delete-button {
+    background-color: #d32f2f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.ajouterSyllabusSection .form-group .delete-button:hover {
+    background-color: #b71c1c;
+}
+
+.ajouterSyllabusSection .form-group input:focus,
+.ajouterSyllabusSection .form-group textarea:focus {
+    border-color: #5a67d8;
+    outline: none;
+}
+
+.ajouterSyllabusSection button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5a67d8;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.ajouterSyllabusSection button:hover {
+    background-color: #434190;
+}
+
+.ajouterSyllabusSection .annuler {
+    background-color: #d32f2f;
+    margin-left: 10px;
+}

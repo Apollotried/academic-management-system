@@ -1,0 +1,50 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: auth-service
+          uri: lb://AUTH-SERVICE
+          predicates:
+            - Path=/auth/**
+
+
+
+        - id: etudiant-service
+          uri: lb://ETUDIANT-SERVICE
+          predicates:
+            - Path=/api/students/**,/api/specificStudent
+          filters:
+            - AuthenticationFilter
+
+        - id: course-service
+          uri: lb://COURS-SERVICE
+          predicates:
+            - Path=/api/courses/**
+          filters:
+            - AuthenticationFilter
+
+        - id: inscription-service
+          uri: lb://INSCRIPTION-SERVICE
+          predicates:
+            - Path=/api/inscriptions/**
+          filters:
+            - AuthenticationFilter
+
+        - id: resultat-service
+          uri: lb://RESULTAT-SERVICE
+          predicates:
+            - Path=/api/results/**
+          filters:
+            - AuthenticationFilter
+
+
+        - id: prof-service
+          uri: lb://PROF-SERVICE
+          predicates:
+            - Path=/api/teachers/**
+          filters:
+            - AuthenticationFilter
+
+
+      default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin

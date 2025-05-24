@@ -1,0 +1,76 @@
+/* style.css */
+
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+}
+
+strong {
+    color: #2c3e50;
+}
+
+.loading, .error {
+    text-align: center;
+    font-size: 18px;
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.error {
+    color: #e74c3c;
+}
+
+/* Styles pour les éléments lorsque l'étudiant est chargé */
+.student-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.student-info p {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+/* Mettre en surbrillance l'ID */
+.student-info .id {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2980b9;
+}
+
+/* Boutons de navigation ou actions supplémentaires */
+button {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3498db;
+}

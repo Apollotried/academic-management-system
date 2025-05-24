@@ -1,0 +1,90 @@
+.ModalAssign {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    max-width: 90%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    overflow: auto;
+}
+
+.ModalAssign .Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.ModalAssign h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Form Styles */
+.ModalAssign form {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    gap: 15px; /* Add spacing between form items */
+}
+
+.ModalAssign .form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ddd; /* Light border for separation */
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.ModalAssign .form-group:hover {
+    background: #f9f9f9; /* Slight hover effect */
+}
+
+.ModalAssign .label {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Space between checkbox and text */
+    cursor: pointer;
+}
+
+.ModalAssign .label .content {
+    font-size: 18px; /* Larger font size */
+    font-weight: 600; /* Bold font */
+    font-family: 'Roboto', Arial, sans-serif; /* Modern font */
+    color: #34495e; /* Elegant dark blue-gray color */
+}
+
+.ModalAssign input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    accent-color: #1abc9c; /* Customize checkbox color (modern browsers) */
+}
+
+.ModalAssign .submit-button {
+    background: #007bff; /* Primary color */
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.ModalAssign .submit-button:hover {
+    background: #0056b3; /* Darker shade for hover */
+}
