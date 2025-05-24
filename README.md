@@ -1,10 +1,10 @@
 # Academic Management System (Microservices)
 
-![Java](https://img.shields.io/badge/Java-17-blue)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.1-green)
-![React](https://img.shields.io/badge/React-18-%2361DAFB)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-%23316192)
-![Kafka](https://img.shields.io/badge/Apache_Kafka-3.0-%23231F20)
+![Java](https://img.shields.io/badge/Java-blue)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-green)
+![React](https://img.shields.io/badge/React-%2361DAFB)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192)
+![Kafka](https://img.shields.io/badge/Apache_Kafka-%23231F20)
 
 A **full-stack microservices** platform for university administration, featuring 12+ interconnected services with event-driven architecture.
 
@@ -16,10 +16,10 @@ A **full-stack microservices** platform for university administration, featuring
 - **Event-driven notifications** (Kafka + Server-Sent Events)
 - **API Gateway** with request routing/validation
 - **Service discovery** (Eureka)
-- **Student/Course/Professor management** (CRUD operations)
+- **Student/Course/Professor/inscriptions/grades management**
 
 ### Frontend
-- Role-based dashboards (Admin/Professor/Student)
+- Role-based dashboards (Admin/Student)
 - React-based UI components
 - API integration with Axios
 
@@ -27,9 +27,9 @@ A **full-stack microservices** platform for university administration, featuring
 
 | Category       | Technologies Used |
 |---------------|------------------|
-| **Backend**   | Java 17, Spring Boot 3, Spring Cloud, JWT |
+| **Backend**   | Java 21, Spring Boot 3, Spring Cloud, JWT |
 | **Database**  | PostgreSQL, Hibernate |
 | **Messaging** | Apache Kafka |
 | **Frontend**  | React, HTML5, CSS3 |
 | **DevOps**    | Docker, Docker Compose |
-| **Testing**   | JUnit 5, Mockito, TestContainers |
+| **Testing**   | JUnit 5, Mockito |
