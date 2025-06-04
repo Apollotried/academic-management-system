@@ -8,7 +8,7 @@
 ![JUnit5](https://img.shields.io/badge/JUnit5-%2325A162)
 ![Mockito](https://img.shields.io/badge/Mockito-%23FF6A00)
 
-A **full-stack microservices** platform for university administration, featuring 10+ interconnected services with event-driven architecture.
+A **full-stack microservices** platform for school administration, featuring 10+ interconnected services with event-driven architecture.
 
 ## 🚀 Key Features
 
