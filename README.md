@@ -48,13 +48,15 @@ A comprehensive **full-stack microservices platform** for academic institution m
 - **Kafka-based event streaming**
 - **Server-Sent Events (SSE)** for real-time updates
 - Grade and course notifications
-## 🛠️ Tech Stack
 
 ### 🔄 Service Communication
 - **Synchronous communication** via Spring Cloud OpenFeign
 - **Asynchronous communication** via Apache Kafka
 - **Service discovery** with Eureka
 - **Load balanced** API calls between services
+
+
+## 🛠️ Tech Stack
 
 | Category       | Technologies Used |
 |---------------|------------------|
