@@ -50,6 +50,12 @@ A comprehensive **full-stack microservices platform** for academic institution m
 - Grade and course notifications
 ## 🛠️ Tech Stack
 
+### 🔄 Service Communication
+- **Synchronous communication** via Spring Cloud OpenFeign
+- **Asynchronous communication** via Apache Kafka
+- **Service discovery** with Eureka
+- **Load balanced** API calls between services
+
 | Category       | Technologies Used |
 |---------------|------------------|
 | **Backend**   | Java 21, Spring Boot 3, Spring Cloud, JWT |
@@ -59,7 +65,9 @@ A comprehensive **full-stack microservices platform** for academic institution m
 | **Infrastructure** | Docker, Docker Compose |
 | **Service Discovery** | Eureka Server |
 | **API Gateway** | Spring Cloud Gateway |
+| **Service Communication** | Spring Cloud OpenFeign |
 | **Configuration** | Spring Cloud Config |
+
 
 ## 🐳 Dockerized Services
 
